@@ -42,11 +42,10 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: dist-without-markdown
-          path: |
-            dist
-            !dist/**/*.md
+          path: MyHtml.html
       - name: Archive code coverage results
         uses: actions/upload-artifact@v2
         with:
           name: code-coverage-report
-          path: test-file.html
+          path: MyHtml.html
+
