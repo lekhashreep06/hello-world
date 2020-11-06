@@ -34,5 +34,7 @@ jobs:
        
       - name: Run jar file
         run: java -jar hello.jar
-          echo Add other actions to build,
-          echo test, and deploy your project.
+        
+      - name: Run jar file - html output
+        run: java -jar hello-html.jar
+     
