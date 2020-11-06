@@ -20,7 +20,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     
-      - uses: "lekhashreep06/hello-world@master"
+      - uses: lekhashreep06/hello-world@master
       env:
         FILE_NAME: "dir/fileName.txt"
         FILE_DATA: "file content"
